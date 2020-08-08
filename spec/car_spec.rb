@@ -1,5 +1,6 @@
 require "spec_helper"
-
+require 'pry'
+# binding.pry
 describe "car" do 
   let!(:car) { Car.new("medium", 4) } 
   describe "#new" do
