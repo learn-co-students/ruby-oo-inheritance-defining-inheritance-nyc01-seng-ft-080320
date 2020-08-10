@@ -6,7 +6,7 @@ class Vehicle
         @wheel_size = wheel_size 
         @wheel_number = wheel_number
     end
-    #every instance of Vehicle – every car – will be born with knowing its wheel_size and wheel_number (provided by the user when creating it).
+    #every instance of Vehicle will be born with knowing its wheel_size and wheel_number (provided by the user when creating it).
 
     def go
         "vrrrrrrrooom!"
